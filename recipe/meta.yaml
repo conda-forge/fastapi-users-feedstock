@@ -25,6 +25,7 @@ requirements:
     - fastapi >=0.65.2,<0.69.0
     - makefun >=1.9.2,<1.12
     - passlib ==1.7.4
+    - pydantic
     - pyjwt ==2.2.0
     - python >=3.7
     - python-multipart ==0.0.5
