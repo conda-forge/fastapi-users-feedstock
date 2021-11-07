@@ -1,5 +1,5 @@
 {% set name = "fastapi-users" %}
-{% set version = "8.1.1" %}
+{% set version = "8.1.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fastapi-users-{{ version }}.tar.gz
-  sha256: 0d087957dacda804241a79492e3d33c0497efc2582748dbfd263dbc97968d1ee
+  sha256: 8ddbaccb7ab0df73cf89693ff1a47d876c98a902bdddb96e67a5f41574463152
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
     - makefun >=1.9.2,<1.12
     - passlib ==1.7.4
     - pydantic
-    - pyjwt ==2.2.0
+    - pyjwt ==2.3.0
     - python >=3.7
     - python-multipart ==0.0.5
 
