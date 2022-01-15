@@ -45,13 +45,13 @@ test:
     - pip check
     - pytest -vvv --capture=tee-sys tests
   requires:
-    - asgi_lifespan 
+    - asgi-lifespan 
     - httpx
     - httpx-oauth
     - pip
     - pydantic
     - pytest
-    - pytest_mock 
+    - pytest-mock 
 
 about:
   home: https://github.com/fastapi-users/fastapi-users
