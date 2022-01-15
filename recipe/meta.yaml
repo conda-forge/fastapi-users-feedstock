@@ -34,6 +34,11 @@ test:
   imports:
     - fastapi_users
     - fastapi_users.authentication
+    - fastapi_users.authentication.strategy
+    - fastapi_users.authentication.strategy.db
+    - fastapi_users.authentication.transport
+    - fastapi_users.db
+    - fastapi_users.router
   commands:
     - pip check
   requires:
