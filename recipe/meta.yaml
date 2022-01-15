@@ -22,8 +22,8 @@ requirements:
     - python >=3.7
   run:
     - email-validator >=1.1.0,<1.2
-    - fastapi >=0.65.2,<0.69.0
-    - makefun >=1.9.2,<1.12
+    - fastapi >=0.65.2,<0.72.0
+    - makefun >=1.11.2,<1.14
     - passlib ==1.7.4
     - pydantic
     - pyjwt ==2.3.0
