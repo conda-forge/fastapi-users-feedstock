@@ -5,7 +5,7 @@ Home: https://github.com/fastapi-users/fastapi-users
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fastapi-users-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fastapi-users-feedstock/blob/main/LICENSE.txt)
 
 Summary: Ready-to-use and customizable users management for FastAPI.
 
@@ -17,8 +17,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=14039&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/fastapi-users-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=14039&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/fastapi-users-feedstock?branchName=main">
       </a>
     </td>
   </tr>
@@ -118,5 +118,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@davidbrochart](https://github.com/davidbrochart/)
 * [@thewchan](https://github.com/thewchan/)
 
