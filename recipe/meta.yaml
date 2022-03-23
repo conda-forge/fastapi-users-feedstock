@@ -1,5 +1,5 @@
 {% set name = "fastapi-users" %}
-{% set version = "9.2.6" %}
+{% set version = "9.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fastapi-users-{{ version }}.tar.gz
-  sha256: e3bbf90aec3cc0b71c6bf0394e73195f5e85398a51f51fa3d78dbdeae2b5179f
+  sha256: 24d938ece7bd24d2c09680bb4e624dae4b325c4e6f98b502ed613df758415f7f
 
 build:
   number: 0
@@ -22,13 +22,14 @@ requirements:
     - python >=3.7
   run:
     - email-validator >=1.1.0,<1.2
-    - fastapi >=0.65.2,<0.69.0
-    - makefun >=1.9.2,<1.12
+    - fastapi >=0.65.2,<0.76.0
+    - makefun >=1.11.2,<1.14
     - passlib ==1.7.4
     - pydantic
     - pyjwt ==2.3.0
     - python >=3.7
     - python-multipart ==0.0.5
+    - typing-extensions >=4.1.1
 
 test:
   imports:
