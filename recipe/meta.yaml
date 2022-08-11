@@ -11,7 +11,7 @@ source:
   sha256: 47cb99eef18eea654170674f5a86c4bed898a6ee666b45007f9805e687ff32f5
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -23,7 +23,7 @@ requirements:
   run:
     - email-validator >=1.1.0,<1.2
     - fastapi >=0.65.2,<0.76.0
-    - makefun >=1.11.2,<1.14
+    - makefun >=1.11.2,<2.0.0
     - passlib ==1.7.4
     - pydantic
     - pyjwt ==2.4.0
