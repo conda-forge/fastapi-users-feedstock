@@ -1,5 +1,5 @@
 {% set name = "fastapi-users" %}
-{% set version = "10.1.5" %}
+{% set version = "10.3.0" %}
 
 
 package:
@@ -7,26 +7,26 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fastapi-users-{{ version }}.tar.gz
-  sha256: 47cb99eef18eea654170674f5a86c4bed898a6ee666b45007f9805e687ff32f5
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: ab9dd218db088bc2d04474ec5fd0040971cea027186041d6d33979f990917d9a
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - flit-core
+    - hatchling
+    - hatch-regex-commit
     - pip
     - python >=3.7
   run:
-    - email-validator >=1.1.0,<1.2
+    - email-validator >=1.1.0,<1.4
     - fastapi >=0.65.2,<0.76.0
     - makefun >=1.11.2,<2.0.0
     - passlib ==1.7.4
-    - pydantic
-    - pyjwt ==2.4.0
+    - pyjwt ==2.6.0
     - python >=3.7
     - python-multipart ==0.0.5
     - typing-extensions >=4.1.1
