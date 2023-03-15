@@ -1,11 +1,11 @@
-About fastapi-users
-===================
+About fastapi-users-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fastapi-users-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/fastapi-users/fastapi-users
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fastapi-users-feedstock/blob/main/LICENSE.txt)
 
 Summary: Ready-to-use and customizable users management for FastAPI.
 
