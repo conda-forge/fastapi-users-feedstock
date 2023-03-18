@@ -1,5 +1,5 @@
 {% set name = "fastapi-users" %}
-{% set version = "10.4.0" %}
+{% set version = "10.4.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 7f77a2a74be8833daaba5d60f8e8c5b445bc26f26aecc445eea9d80e877d5629
+  sha256: cbc589278ce35b4e6218ec00987c64bb4dfbfbde39c192d8327b51eda171b9f1
 
 build:
   number: 0
@@ -22,13 +22,17 @@ requirements:
     - pip
     - python >=3.7
   run:
+    # For passlib[bcrypt]
+    - bcrypt >=3.1.0
+    # For pyjwt[crypto]
+    - cryptography >=3.4.0
     - email-validator >=1.1.0,<1.4
     - fastapi >=0.65.2
     - makefun >=1.11.2,<2.0.0
     - passlib ==1.7.4
     - pyjwt ==2.6.0
     - python >=3.7
-    - python-multipart ==0.0.5
+    - python-multipart ==0.0.6
     - typing-extensions >=4.1.1
 
 test:
