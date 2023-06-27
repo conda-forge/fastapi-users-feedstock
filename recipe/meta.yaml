@@ -20,20 +20,21 @@ requirements:
     - hatchling
     - hatch-regex-commit
     - pip
-    - python >=3.7
+    - python >=3.8
   run:
-    # For passlib[bcrypt]
-    - bcrypt >=3.1.0
-    # For pyjwt[crypto]
-    - cryptography >=3.4.0
     - email-validator >=1.1.0,<2.1
     - fastapi >=0.65.2
     - makefun >=1.11.2,<2.0.0
     - passlib ==1.7.4
-    - pyjwt ==2.6.0
-    - python >=3.7
+    - pyjwt ==2.7.0
+    - python >=3.8
     - python-multipart ==0.0.6
-    - typing-extensions >=4.1.1
+
+    # For passlib[bcrypt]
+    - bcrypt >=3.1.0
+    
+    # For pyjwt[crypto]
+    - cryptography >=3.4.0
 
 test:
   imports:
