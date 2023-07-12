@@ -1,5 +1,5 @@
 {% set name = "fastapi-users" %}
-{% set version = "12.0.0" %}
+{% set version = "12.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 694cf58f08fff4f76b3e6e1989b8c4bbcda4bc68d20e61a3859b071c5c02b45b
+  sha256: b56eaaa328c5b1a0ead959df5fc217cb296ea9d93beebc93552d6576de442ffa
 
 build:
   number: 0
@@ -32,7 +32,7 @@ requirements:
 
     # For passlib[bcrypt]
     - bcrypt >=3.1.0
-    
+
     # For pyjwt[crypto]
     - cryptography >=3.4.0
 
