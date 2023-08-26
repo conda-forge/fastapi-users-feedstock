@@ -1,5 +1,5 @@
 {% set name = "fastapi-users" %}
-{% set version = "12.1.0" %}
+{% set version = "12.1.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: b56eaaa328c5b1a0ead959df5fc217cb296ea9d93beebc93552d6576de442ffa
+  sha256: 9a9b44e0917c483aaba2bf80ea488b4ba6475b0fb24e2abfaf21e0b5c5db59bf
 
 build:
   number: 0
@@ -26,7 +26,7 @@ requirements:
     - fastapi >=0.65.2
     - makefun >=1.11.2,<2.0.0
     - passlib ==1.7.4
-    - pyjwt ==2.7.0
+    - pyjwt ==2.8.0
     - python >=3.8
     - python-multipart ==0.0.6
 
