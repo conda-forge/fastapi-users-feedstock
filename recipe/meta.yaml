@@ -28,7 +28,7 @@ requirements:
     - passlib ==1.7.4
     - pyjwt ==2.8.0
     - python >=3.8
-    - python-multipart ==0.0.6
+    - python-multipart ==0.0.7
 
     # For passlib[bcrypt]
     - bcrypt >=3.1.0
