@@ -25,16 +25,14 @@ requirements:
     - email-validator >=1.1.0,<2.2
     - fastapi >=0.65.2
     - makefun >=1.11.2,<2.0.0
-    - passlib ==1.7.4
     - pyjwt ==2.8.0
     - python >=3.8
     - python-multipart ==0.0.9
     - pwdlib ==0.2.0
+
+    # For pwdlib[argon2, bcrypt]
     - bcrypt ==4.1.2
     - argon2-cffi ==23.1.0
-
-    # For passlib[bcrypt]
-    - bcrypt >=3.1.0
 
     # For pyjwt[crypto]
     - cryptography >=3.4.0
