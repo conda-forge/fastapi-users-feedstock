@@ -28,7 +28,10 @@ requirements:
     - passlib ==1.7.4
     - pyjwt ==2.8.0
     - python >=3.8
-    - python-multipart ==0.0.7
+    - python-multipart ==0.0.9
+    - pwdlib ==0.2.0
+    - bcrypt ==4.1.2
+    - argon2_cffi ==23.1.0
 
     # For passlib[bcrypt]
     - bcrypt >=3.1.0
