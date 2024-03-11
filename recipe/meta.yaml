@@ -31,7 +31,7 @@ requirements:
     - python-multipart ==0.0.9
     - pwdlib ==0.2.0
     - bcrypt ==4.1.2
-    - argon2_cffi ==23.1.0
+    - argon2-cffi ==23.1.0
 
     # For passlib[bcrypt]
     - bcrypt >=3.1.0
