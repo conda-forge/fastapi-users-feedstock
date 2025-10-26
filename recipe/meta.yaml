@@ -1,5 +1,5 @@
 {% set name = "fastapi-users" %}
-{% set version = "14.0.1" %}
+{% set version = "14.0.2" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 8c032b3a75c6fb2b1f5eab8ffce5321176e9916efe1fe93e7c15ee55f0b02236
+  sha256: c7d39035fc2eaacfae6122c3b29965f7dab0d83123b1c4ae92d20d963aa47fb8
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -25,7 +25,7 @@ requirements:
     - python >={{ python_min }}
     - fastapi >=0.65.2
     - pwdlib ==0.2.1
-    - email-validator >=1.1.0,<2.3
+    - email-validator >=1.1.0,<2.4
     - pyjwt ==2.10.1
     - python-multipart ==0.0.20
     - makefun >=1.11.2,<2.0.0
