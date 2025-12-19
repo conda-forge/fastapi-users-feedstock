@@ -1,5 +1,5 @@
 {% set name = "fastapi-users" %}
-{% set version = "15.0.2" %}
+{% set version = "15.0.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 4cdcc471a5b9e48de3ec4e7dc97e7b7afb610dda5ec6d022d3ddc0a0c0699323
+  sha256: 94b24f8889b51ca3d8da92a88bced2bca2764cb1dd21c7d6d838890ff57b6472
 
 build:
   number: 0
