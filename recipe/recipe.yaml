@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: fastapi-users
-  version: 15.0.3
+  version: "15.0.4"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 94b24f8889b51ca3d8da92a88bced2bca2764cb1dd21c7d6d838890ff57b6472
+  sha256: 62657a4323de929cd98697b0fbdea77773ef271a6b57ef359080b9f773ebe144
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
